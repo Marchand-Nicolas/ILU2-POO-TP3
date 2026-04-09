@@ -40,7 +40,7 @@ public class Etal <P extends Produit> implements IEtal{
 	}
 
 	@Override
-	public boolean contientProduit(String produit) {
+	public boolean contientProduit(Produit produit) {
 		return this.produit.equals(produit);
 	}
 
